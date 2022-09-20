@@ -10,9 +10,9 @@ export const Page = () => {
     <article>
       <Header
         user={user}
-        onLogin={() => setUser({ name: 'Jane Doe' })}
+        onLogin={() => setUser({ name: 'Hüseyin' })}
         onLogout={() => setUser(undefined)}
-        onCreateAccount={() => setUser({ name: 'Jane Doe' })}
+        onCreateAccount={() => setUser({ name: 'Hüseyin' })}
       />
 
       <section>
